@@ -58,7 +58,7 @@ span {
 	visibility: hidden;
 }
 /*in case of mobile devices*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 	#toggle-btn {
 		visibility: visible;
 	}
