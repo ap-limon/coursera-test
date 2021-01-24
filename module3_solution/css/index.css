@@ -1,0 +1,74 @@
+
+#navigation-bar {
+	position: relative;
+	border: 2px solid black;
+	background-color: rgb(153, 153, 153)!important;
+	padding: 0;
+}
+.navbar-brand {
+	padding-left: 15px;
+	color: rgb(0, 0, 0)!important;
+}
+.btn {
+	position: absolute;
+	right: 60px;
+	top: 5px;
+}
+.btn:visited {
+	position: absolute;
+	right: 60px;
+	background-color: white!important;
+	color: green;
+}
+.navbar-brand h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+#toggle-btn {
+	visibility: hidden;
+	background-color: rgb(80, 80, 80);
+}
+#collapsibleNavbar ul li a {
+	background-color: rgb(255, 255, 255);
+	color: black;
+	font-weight: bold;
+	border: 1px solid black;
+}
+#collapsibleNavbar ul li a:hover {
+	background-color: rgb(90, 90, 90);
+	color: white;
+}
+.header h1 {
+	margin: 15px auto;
+}
+section {
+	background-color: rgb(153, 153, 153);
+	margin: 20px 5px!important;
+}
+.section {
+	background-color: rgb(153, 153, 153);
+	padding: 0 5px;
+}
+.details{
+	padding: 5px;
+	text-align: justify;
+}
+span {
+	visibility: hidden;
+}
+/*in case of mobile devices*/
+@media screen and (max-width: 576px){
+	#toggle-btn {
+		visibility: visible;
+	}
+	.navbar-brand {
+		font-size: 4vw;
+	}
+	.btn {
+		padding: .375rem 0.1rem;
+	}
+	span {
+		visibility: visible;
+	}
+}
